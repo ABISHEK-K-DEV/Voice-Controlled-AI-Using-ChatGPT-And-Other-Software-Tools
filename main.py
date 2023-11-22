@@ -20,11 +20,11 @@ def takeCommand():
             print(f"User said: {query}")
             return query
         except Exception as e:
-            return "Some Error Occurred. Sorry from Jarvis"
+            return "Some Error Occurred. Sorry from SKI"
 
 if __name__ == '__main__':
-    print('Welcome to Jarvis A.I')
-    say("Jarvis A.I")
+    print('Welcome to SKI A.I')
+    say("SKI A.I")
     while True:
         print("Listening...")
         query = takeCommand()
